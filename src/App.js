@@ -9,6 +9,7 @@ import mnistry_logo from "./assets/meity-logo-2.png";
 import isea_logo from "./assets/ISEA.png";
 // import GoogleFontLoader from 'react-google-font-loader';
 import WebFont from 'webfontloader';
+import Navbar from './Navbar/Navbar';
 
 WebFont.load({
   google: {
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <>
+      <Navbar/>
       <section id='header-area'>
         <header>
           <figure id="image-container">
