@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.738801ab.css",
-    "main.js": "/landing-page/static/js/main.68e77bca.js",
+    "main.css": "/landing-page/static/css/main.fcc92439.css",
+    "main.js": "/landing-page/static/js/main.918cebac.js",
     "static/js/488.29c5c5c6.chunk.js": "/landing-page/static/js/488.29c5c5c6.chunk.js",
     "static/media/CSE-Building.jpg": "/landing-page/static/media/CSE-Building.30da60faf46be2f52c6f.jpg",
     "static/media/ISEA.png": "/landing-page/static/media/ISEA.ae8bd2f8758d696834b6.png",
@@ -9,12 +9,12 @@
     "static/media/CSELogo.png": "/landing-page/static/media/CSELogo.0ee036451771dc08d30a.png",
     "static/media/logo.svg": "/landing-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/landing-page/index.html",
-    "main.738801ab.css.map": "/landing-page/static/css/main.738801ab.css.map",
-    "main.68e77bca.js.map": "/landing-page/static/js/main.68e77bca.js.map",
+    "main.fcc92439.css.map": "/landing-page/static/css/main.fcc92439.css.map",
+    "main.918cebac.js.map": "/landing-page/static/js/main.918cebac.js.map",
     "488.29c5c5c6.chunk.js.map": "/landing-page/static/js/488.29c5c5c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.738801ab.css",
-    "static/js/main.68e77bca.js"
+    "static/css/main.fcc92439.css",
+    "static/js/main.918cebac.js"
   ]
 }
