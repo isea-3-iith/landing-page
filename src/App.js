@@ -21,7 +21,7 @@ function App() {
       </section>
 
       <section id="body">
-      
+        <h2>WEBISITE TO BE UPDATED</h2>
       </section>
 
       <section id="footer">
