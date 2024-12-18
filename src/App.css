@@ -1,3 +1,7 @@
+* {
+    font-family: "Montserrat", serif;
+}
+
 #header-area {
     text-align: center; /* Centers the header content */
     position: relative;
@@ -42,3 +46,46 @@
     z-index: 10;
 }
 
+nav#heading-area {
+    /* background-color: aqua; */
+    display: inline-flex;
+    width: 100%;
+    font-family: "Roboto", serif;
+}
+
+#bootcamp-name {
+    display: inline;
+    width: 150%;
+    size: 200px;
+    /* height: 120px; */
+    /* background-color: rgb(143, 143, 15); */
+    transform: translateX(-10%);
+    /* font-size: var(100%); */
+    /* font-family: "Montserrat", serif; */
+    font-size: 50px;
+}
+
+#bootcamp-date {
+    width: 70%;
+    display: inline-block;
+    background-color: rgb(43, 61, 226);
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 40px;
+}
+
+/* .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+
+.montserrat-heading-zone{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}

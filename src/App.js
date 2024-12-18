@@ -7,6 +7,14 @@ import cse_building from "./assets/CSE-Building.jpg";
 import iith_logo from "./assets/CSELogo.png";
 import mnistry_logo from "./assets/meity-logo-2.png";
 import isea_logo from "./assets/ISEA.png";
+// import GoogleFontLoader from 'react-google-font-loader';
+import WebFont from 'webfontloader';
+
+WebFont.load({
+  google: {
+    families: ['Roboto:400,700', 'Open Sans', 'Montserrat:400,500,700']
+  }
+});
 
 
 function App() {
@@ -24,6 +32,16 @@ function App() {
             <img src={iith_logo} alt="iith logo" srcset="" id='iith_logo'/>            
           </figure>
         </header>
+        <nav id='heading-area' className='montserrat-heading-zone'>
+          <pre id='bootcamp-name' className='roboto-regular'>
+            <p>A bootcamp on</p>
+            <h2>Wireless Security</h2>
+            <p>under ISEA Phase III</p>
+          </pre>
+          <div id='bootcamp-date'>
+            <p>27-31 January 2025</p>
+          </div>
+        </nav>
       </section>
 
       <section id="body">
