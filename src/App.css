@@ -1,5 +1,6 @@
 * {
     font-family: "Montserrat", serif;
+    margin: 2px;
 }
 
 #header-area {
@@ -36,15 +37,7 @@
     width: auto;
 }
 
-#minisrty_logo {
-    position: absolute;
-    top: 10%; /* Adjust to place logo at the desired height */
-    left: 50%; /* Move logo to the center horizontally */
-    transform: translate(190%, -250%); /* Center align the logo perfectly */
-    height: 70px;
-    width: auto;
-    z-index: 10;
-}
+
 
 nav#heading-area {
     /* background-color: aqua; */

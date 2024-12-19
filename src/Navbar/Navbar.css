@@ -1,3 +1,13 @@
 .navbar {
     background-color: blue;
 }
+
+#minisrty_logo {
+    position: absolute;
+    top: 10%; /* Adjust to place logo at the desired height */
+    left: 50%; /* Move logo to the center horizontally */
+    transform: translate(130%, -10%);
+    height: 70px;
+    width: auto;
+    z-index: 10;
+}

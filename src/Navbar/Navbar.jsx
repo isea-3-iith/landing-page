@@ -1,4 +1,5 @@
 import './Navbar.css';
+import mnistry_logo from "../assets/meity-logo-2.png";
 
 export default function Navbar() {
     return(
@@ -28,6 +29,7 @@ export default function Navbar() {
                     <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
+                <img src={mnistry_logo} alt="ministry logo" srcset="" id='minisrty_logo'/>
                 </ul>
             </div>
         </nav>
