@@ -1,5 +1,6 @@
 .navbar {
     background-color: blue;
+    height: 70px;
 }
 
 #minisrty_logo {
@@ -10,4 +11,8 @@
     height: 70px;
     width: auto;
     z-index: 10;
+}
+
+.hidden {
+    display: none;
 }

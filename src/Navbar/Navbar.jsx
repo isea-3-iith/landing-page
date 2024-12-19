@@ -11,15 +11,15 @@ export default function Navbar() {
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link hidden" href="#">Home <span class="sr-only hidden">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item hidden">
                     <a class="nav-link" href="#">Features</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item hidden">
                     <a class="nav-link" href="#">Pricing</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown hidden">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown link
                     </a>

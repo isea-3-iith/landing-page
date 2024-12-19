@@ -98,3 +98,21 @@ p#date {
 section#body {
     display: inline-flex;
 }
+
+
+#instrutor-names {
+    margin: 25px 5px;
+}
+
+.bg-black-highlight {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+Pannel {
+    color: aliceblue;
+    background-color: black;
+}

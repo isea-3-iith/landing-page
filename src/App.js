@@ -5,6 +5,7 @@ import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
 import cse_building from "./assets/CSE-Building.jpg";
 import iith_logo from "./assets/CSELogo.png";
+import Pannel from "./Pannel/Pannel";
 
 import isea_logo from "./assets/ISEA.png";
 // import GoogleFontLoader from 'react-google-font-loader';
@@ -75,38 +76,47 @@ function App() {
                             CTF/Projects have exciting rewards.
                         </p>
                     </article>
+                    <article id="instrutor-names" className="instructors">
+                        <h2
+                            id="instructors-heading"
+                            className="bg-black-highlight"
+                        >
+                            Instructors:
+                        </h2>
+                        <ul>
+                            <li>Dr. Bheemarjuna Reddy Tamma</li>
+                            <li>Dr. Maria Francis</li>
+                            <li>Dr. Saurabh Kumar</li>
+                            <li>Industry experts</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h2 className="bg-black-highlight">
+                            What you will learn:
+                        </h2>
+                        <ul>
+                            <li>Basics of network security and cryptography</li>
+                            <li>
+                                various attack types and vulnerabilities in
+                                wireless networks
+                            </li>
+                            <li>
+                                Wi-Fi security protocols (WPA/WPA2/WPA3) and
+                                attacks on them
+                            </li>
+                            <li>
+                                work with tools like Openssl,
+                                wireshark,BurpSuite, aircrack-ng
+                            </li>
+                            <li>
+                                Best Practices and applied case study on Malware
+                                Analysis and Detection for Mobile Devices
+                            </li>
+                        </ul>
+                    </article>
                 </div>
 
-                <aside id="registration-details">
-                    <h2 id="registration-underlined">
-                        <u>Registration Details:</u>
-                    </h2>
-                    <ul>
-                        <li>
-                            All BTech/MTech/PhD students from CS/AI/ECE/EE/IT
-                            backgrounds are welcome to register
-                        </li>
-                        <li>
-                            Basic knowledge of computer networks and familiarity
-                            with linux environment is required
-                        </li>
-                        <li>Apply now: *insert FORM link*</li>
-                        <li>
-                            Registration fee: 1000/- (covers kit, accommodation,
-                            lunch)
-                        </li>
-                        <li>Registration deadline: 20 Jan 2025</li>
-                        <li>
-                            Limited seats available, shortlisted candidates will
-                            be notified via email with payment instructions
-                        </li>
-                        <li>
-                            Selected participants may also qualify for
-                            internship opportunities in dept. of CSE, IIT
-                            Hyderabad.
-                        </li>
-                    </ul>
-                </aside>
+                <Pannel></Pannel>
             </section>
 
             <section id="footer"></section>
